@@ -1,0 +1,24 @@
+{
+    "name": "thienhungho/yii2-term-management",
+    "description": "Yii2 Term Management",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","term", "management"],
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "thienhungho",
+            "email": "thienhungho@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.9",
+        "thienhungho/yii2-app-core": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "thienhungho\\TermManagement\\": "src/"
+        },
+        "files": ["src/functions/core.php", "src/const/core.php"]
+    }
+}
