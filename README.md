@@ -78,6 +78,11 @@ Functions
 
 [Core](https://github.com/thienhungho/yii2-term-management/tree/master/src/functions/core.php)
 
+Models
+------------
+
+[Term](https://github.com/thienhungho/yii2-term-management/tree/master/src/models/Term.php), [TermRelationships](https://github.com/thienhungho/yii2-term-management/tree/master/src/models/TermRelationships.php), [TermType](https://github.com/thienhungho/yii2-term-management/tree/master/src/models/TermType.php),
+
 Constant
 ------------
 
