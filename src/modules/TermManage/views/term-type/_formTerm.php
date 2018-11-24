@@ -30,7 +30,7 @@ echo TabularForm::widget([
             'type' => TabularForm::INPUT_WIDGET,
             'widgetClass' => \kartik\widgets\Select2::className(),
             'options' => [
-                'data' => \yii\helpers\ArrayHelper::map(\common\models\User::find()->orderBy('username')->asArray()->all(), 'id', 'username'),
+                'data' => \yii\helpers\ArrayHelper::map(\thienhungho\UserManagement\models\User::find()->orderBy('username')->asArray()->all(), 'id', 'username'),
                 'options' => ['placeholder' => t('app', 'Choose User')],
             ],
             'columnOptions' => ['width' => '200px']

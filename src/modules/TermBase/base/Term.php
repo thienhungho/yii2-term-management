@@ -2,7 +2,7 @@
 
 namespace thienhungho\TermManagement\modules\TermBase\base;
 
-use common\models\User;
+use thienhungho\UserManagement\models\User;
 use Yii;
 use yii\behaviors\TimestampBehavior;
 use yii\behaviors\BlameableBehavior;

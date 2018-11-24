@@ -7,7 +7,7 @@ namespace thienhungho\TermManagement\modules\TermBase\query;
  *
  * @see TermType
  */
-class TermTypeQuery extends \yii\db\ActiveQuery
+class TermTypeQuery extends \thienhungho\ActiveQuery\models\ActiveQuery
 {
     /*public function active()
     {

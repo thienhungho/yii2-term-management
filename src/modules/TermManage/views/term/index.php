@@ -105,7 +105,7 @@ $this->registerJs($search);
             },
             'filterType'          => GridView::FILTER_SELECT2,
             'filter'              => \yii\helpers\ArrayHelper::map(
-                \common\models\User::find()
+                \thienhungho\UserManagement\models\User::find()
                     ->asArray()
                     ->all(), 'id', 'username'),
             'filterWidgetOptions' => [
